@@ -1,0 +1,80 @@
+/* main navigation */
+
+.name {
+  @include adjust-font-size-to(18px,1.2);
+  font-weight:700;
+}
+.job {
+  
+  color:$lightPrimaryColor}
+  
+  nav {
+    @include clearfix;
+    
+    @include respond-to(64) {
+      display:none;
+      &.mobile-menu-visible {display:block}
+    }
+    
+    ul {
+      @include reset;
+      @include clearfix;
+      overflow:auto;
+      @include respond-to(64) {
+        height:auto !important;
+      }
+      
+      
+      li {
+        @include reset;
+        list-style:none;
+        border-bottom:1px solid rgba(0,0,0,.1);
+        border-top:1px solid rgba(255,255,255,.1);
+        @include clearfix;
+        
+        
+         &:hover { 
+            background:$primaryColor;
+            color:$darkPrimaryColor;
+            border-bottom:1px solid $primaryColor;
+            border-top:1px solid $primaryColor;
+            
+          
+          }
+          
+        &:first-child {
+          border-top:0;
+        }
+        &:last-child {
+          box-shadow:0 1px 0 rgba(255,255,255,.1);
+        }
+        
+        a,a:visited,a:active {
+          @include span(2 of 3);
+          padding:rhythm(.5) 0;
+          float: none;
+          margin:0 auto; 
+          @include adjust-font-size-to(18px,1.2);
+          display:block;
+          text-decoration:none;
+          color:$textPrimaryColor;
+          font-family: 'Source Code Pro';
+          
+          @include respond-to(64) {
+            @include span(3 of 3);
+            padding:rhythm(.5) span(1);
+          }
+           &:hover { 
+             color:$textPrimaryColor;
+             text-decoration: none;
+           }
+         
+          
+          i {
+            padding:0 10px 0 0;
+          }
+        }
+        
+      }
+    }
+  }
