@@ -19,6 +19,7 @@ $RECYCLE.BIN/
 .sass-cache
 node_modules
 twitterfeed
+npm-debug.log
 
 
 # =========================
