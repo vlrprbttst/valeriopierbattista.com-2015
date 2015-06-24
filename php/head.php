@@ -34,6 +34,6 @@ I love simple and functional interfaces optimized for anything that can access t
 		Questo sito raccoglie dati statistici anonimi sulla navigazione, mediante cookie installati da terze parti autorizzate, 
 		rispettando la privacy dei tuoi dati personali e secondo le norme previste dalla legge. Continuando a navigare su questo sito
 		accetti il servizio e gli stessi cookie.<br>
-		<div class="ok-cookie cookie-btn">ok</div>
-		<div class="cookie-policy cookie-btn"><a href="cookies.php">more</a></div>
+		<div class="ok-cookie cookie-btn"><i class="fa fa-thumbs-up"></i> ok</div>
+		<div class="cookie-policy cookie-btn"><a href="cookies.php">cookie policy</a></div>
 	</div>
