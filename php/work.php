@@ -14,8 +14,7 @@
 		<?php
 		include 'head.php';
 		?>
-	</head>
-	<body class="container">
+
 
 		<?php
 		include 'navigation.php';
