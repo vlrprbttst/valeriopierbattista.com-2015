@@ -1,4 +1,3 @@
-
 module.exports = function(grunt) {
 
 	grunt.initConfig({
@@ -21,15 +20,23 @@ module.exports = function(grunt) {
 			}, // end of delete sync for images
 
 			scripts : {
-				files : ['js/libs/*.js', 'js/custom/*.js','!js/libs/prism.js'],
+				files : ['js/libs/*.js', 'js/custom/*.js', '!js/libs/prism.js'],
 				tasks : ['concat', 'uglify'],
 				options : {
 					spawn : false,
 				},
 			}, //end of watch scripts
 
+			scriptsIndex : {
+				files : ['js/index-js/*.js'],
+				tasks : ['uglifyIndex'],
+				options : {
+					spawn : false,
+				},
+			}, //end of watch scripts
+
 			css : {
-				files : ['sass/**/*.scss','!.sass-cache'],
+				files : ['sass/**/*.scss', '!.sass-cache'],
 				tasks : ['sass', 'autoprefixer', 'penthouse'],
 				options : {
 					spawn : false,
@@ -109,13 +116,20 @@ module.exports = function(grunt) {
 			}
 		}, //end uglify
 
+		uglifyIndex : {
+			dist : {
+				src : 'js/index-js/index.js',
+				dest : 'js/build/index-js.min.js'
+			}
+		}, //end uglify2
+
 		sass : {
 			dist : {
 				options : {
 					style : 'compressed', //no need for config.rb
 					compass : 'true', //no need to @import compass
-					require : ['susy','sassy-buttons']
-					 // plugins if needed!
+					require : ['susy', 'sassy-buttons']
+					// plugins if needed!
 				},
 				files : {
 					'css/main.css' : 'sass/main.scss'
@@ -126,7 +140,7 @@ module.exports = function(grunt) {
 		autoprefixer : {
 
 			options : {
-				map: true,
+				map : true,
 				browsers : ['> 5%', 'last 2 version', 'ie 8', 'ie 9']
 			},
 
@@ -144,7 +158,7 @@ module.exports = function(grunt) {
 					src : ['css/*.css', 'images/*.*', 'js/build/production.min.js', '*.php']
 				},
 				options : {
-					
+
 					proxy : "http://localhost/valeriopierbattista.com-2015/",
 					watchTask : true // < VERY important
 
@@ -165,7 +179,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-delete-sync');
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-penthouse');
-	
 
 	// define default task
 	grunt.registerTask('default', ["browserSync", "watch"]);

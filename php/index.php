@@ -85,5 +85,7 @@ include 'css/above-the-fold.css.php';
 		<?php
 		include 'scripts.php';
 		?>
+		
+		<script src="js/index-js/index.js"></script>
 	</body>
 </html>
