@@ -86,6 +86,6 @@ include 'css/above-the-fold.css.php';
 		include 'scripts.php';
 		?>
 		
-		<script src="js/index-js/index.js"></script>
+		<script src="js/build/index.min.js"></script>
 	</body>
 </html>
