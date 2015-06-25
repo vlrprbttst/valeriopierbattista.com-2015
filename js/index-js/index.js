@@ -1,5 +1,4 @@
-//instagram 
-
+//instagram
 var userFeed = new Instafeed({
 	get : 'user',
 	userId : 33551734,
@@ -11,7 +10,6 @@ var userFeed = new Instafeed({
 userFeed.run();
 
 // spotify
-
 function get_spotify() {
 	$.ajax({
 		type : 'POST',
@@ -28,6 +26,6 @@ function get_spotify() {
 get_spotify();
 
 // giflink
-
 var element = document.querySelector( '.profile-pic');
 GifLinks( element, { preload: true } );
+

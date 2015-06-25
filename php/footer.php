@@ -2,7 +2,7 @@
 	<div class="sub-container-sidebar">
 		<div class="site-info">
 			Hand-Coded with <i class="fa fa-heart"></i> in Rome (Italy) using <a href="http://sass-lang.com/" target="_blank">Sass</a>, <a href="http://compass-style.org/" target="_blank">Compass</a>, <a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="http://susy.oddbird.net/" target="_blank">Susy</a> and <a href="http://gruntjs.com/" target="_blank">Grunt</a>. Icons by <a href="http://fontawesome.io" target="_blank">FontAwesome</a>,
-			fonts by <a href="https://www.google.com/fonts" target="_blank">Google</a> and blog by <a href="https://wordpress.com" target="_blank">Wordpress</a>.
+			fonts by <a href="https://www.google.com/fonts" target="_blank">Google</a> and blog by <a href="https://wordpress.com" target="_blank">Wordpress</a> // <a href="cookies.php">Privacy and Cookie Policy </a>
 		</div>
 		<div class="footer-sep"></div>
 		<div class="social-cont">

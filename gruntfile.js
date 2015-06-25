@@ -28,12 +28,12 @@ module.exports = function(grunt) {
 			}, //end of watch scripts
 
 			scriptsIndex : {
-				files : ['js/index-js/*.js'],
-				tasks : ['uglifyIndex'],
+				files : ['js/index-js/index.js'],
+				tasks : ['uglify:scriptsIndex'],
 				options : {
 					spawn : false,
 				},
-			}, //end of watch scripts
+			},
 
 			css : {
 				files : ['sass/**/*.scss', '!.sass-cache'],
@@ -113,15 +113,13 @@ module.exports = function(grunt) {
 			dist : {
 				src : 'js/build/production.js',
 				dest : 'js/build/production.min.js'
+			},
+
+			scriptsIndex : {
+				src : 'js/index-js/index.js',
+				dest : 'js/build/index.min.js'
 			}
 		}, //end uglify
-
-		uglifyIndex : {
-			dist : {
-				src : 'js/index-js/index.js',
-				dest : 'js/build/index-js.min.js'
-			}
-		}, //end uglify2
 
 		sass : {
 			dist : {
