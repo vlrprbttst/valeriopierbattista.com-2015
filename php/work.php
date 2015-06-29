@@ -7,14 +7,15 @@
 <![endif]-->
 <html lang="en">
 	<head>
-				<!-- critical above the fold css -->
+		<!-- critical above the fold css -->
 		<style type="text/css">
-<?php include 'css/above-the-fold.css.php';	?>
+<?php
+			include 'css/above-the-fold.css.php';
+	?>
 		</style>
 		<?php
 		include 'head.php';
 		?>
-
 
 		<?php
 		include 'navigation.php';
@@ -22,10 +23,23 @@
 
 		<div class="page-container">
 			<div class="sub-container work">
-				<h1>
-				
-				Work</h1>
+				<h1> Work</h1>
 				<div class="row">
+
+					<div class="work-item">
+						<a href="http://www.drunkuserexperience.com" target="_blank"> <img src="images/dist/work/drunkux.png" alt="hypertv" /> </a>
+						<h2>Drunk UX</h2>
+						<p>
+							This vital tool will help you evaluate the UX of your website while under the influence.
+						</p>
+						<p>
+							<span>html, css, js, responsive web design, concept, graphic design</span>
+						</p>
+						<p>
+							<a href="http://www.hypertvx.com" target="_blank">www.drunkuserexperience.com</a>
+						</p>
+					</div>
+
 					<div class="work-item">
 						<a href="http://www.hypertvx.com" target="_blank"> <img src="images/dist/work/hypertv-website.png" alt="hypertv" /> </a>
 						<h2>HyperTV Website</h2>
@@ -38,9 +52,12 @@
 							<span>html, css, js, responsive web design </span>
 						</p>
 						<p>
-						<a href="http://www.hypertvx.com" target="_blank">www.hypertvx.com</a>
+							<a href="http://www.hypertvx.com" target="_blank">www.hypertvx.com</a>
 						</p>
 					</div>
+				</div>
+
+				<div class="row">
 					<div class="work-item">
 						<a href="http://www.hypertvx.com/christmas" target="_blank"> <img src="images/dist/work/hypertv-xmas-website.png" alt="hypertv christmas" /> </a>
 						<h2>HyperTV Christmas Card (2014)</h2>
@@ -52,7 +69,25 @@
 						<p>
 							<span>html, css, js, responsive web design, parallax scrolling animation </span>
 						</p>
-						<p><a href="http://www.hypertvx.com/christmas" target="_blank">www.hypertvx.com/christmas</a></p>
+						<p>
+							<a href="http://www.hypertvx.com/christmas" target="_blank">www.hypertvx.com/christmas</a>
+						</p>
+					</div>
+					<div class="work-item">
+						<a href="/cv" target="_blank"> <img src="images/dist/work/personal-cv.png" alt="hypertv" /> </a>
+						<h2>Personal Online Résumé</h2>
+						<p>
+							I wanted to experiment with parallax scrolling animations and as my résumé was outdated, I decided to build
+							an interactive one for the web. It was featured on <a href="http://onepagelove.com" target="_blank">onepagelove.com</a> (one of my favourite websites) and on many others and used
+							as a creative example by <a href="http://ihatetomatoes.net" target="_blank">Petr Tichy</a> on his <a href="https://ihatetomatoes.net/product/parallax-scrolling-master-class/" target="_blank">online course</a>
+							(which I took).
+						</p>
+						<p>
+							<span>html, css, js, responsive web design, graphic design, parallax scrolling animation</span>
+						</p>
+						<p>
+							<a href="/cv" target="_blank">www.valeriopierbattista.com/cv</a>
+						</p>
 					</div>
 				</div>
 
@@ -75,25 +110,6 @@
 						</p>
 					</div>
 					<div class="work-item">
-						<a href="/cv" target="_blank"> <img src="images/dist/work/personal-cv.png" alt="hypertv" /> </a>
-						<h2>Personal Online Résumé</h2>
-						<p>
-							I wanted to experiment with parallax scrolling animations and as my résumé was outdated, I decided to build
-							an interactive one for the web. It was featured on <a href="http://onepagelove.com" target="_blank">onepagelove.com</a> (one of my favourite websites) and on many others and used
-							as a creative example by <a href="http://ihatetomatoes.net" target="_blank">Petr Tichy</a> on his <a href="https://ihatetomatoes.net/product/parallax-scrolling-master-class/" target="_blank">online course</a>
-							(which I took).
-						</p>
-						<p>
-							<span>html, css, js, responsive web design, graphic design, parallax scrolling animation</span>
-						</p>
-						<p>
-						<a href="/cv" target="_blank">www.valeriopierbattista.com/cv</a>
-						</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="work-item">
 						<img class="mconnect-img" src="images/dist/work/grandefratello-800.png" alt="mediaset connect grandefratello 2014" />
 						<h2>Mediaset Connect</h2>
 						<p>
@@ -110,13 +126,16 @@
 							<a href="https://play.google.com/store/apps/details?id=it.mediaset.mediasetconnect.android"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
 						</p>
 					</div>
+				</div>
+				<div class="row">
 					<div class="work-item">
 						<img class="aljz-img" src="images/dist/work/thestream-800.png" alt="aljazeera the stream" />
 						<h2>Aljazeera The Stream</h2>
-						<p>It's the second-screen app for the american/english show The Stream where editorial producers create synced content live while the show is airing. This gives audience members a chance to voice their opinions on underreported news stories from around the world. 
+						<p>
+							It's the second-screen app for the american/english show The Stream where editorial producers create synced content live while the show is airing. This gives audience members a chance to voice their opinions on underreported news stories from around the world.
 							Recently named Outstanding Talk Show in the news category by the Gracie Awards, the Al Jazeera English version of The Stream has also received the 2012 Royal Television
 							Society’s award for Most Innovative Programme of the Year and the 2012 Webby’s People’s Choice Award for News and Politics.
-							
+
 						</p>
 						<p>
 							<span>html and css code refactoring, front end development of in-app templates, responsive conversion of the previous fixed-width app architecture</span>
@@ -134,8 +153,6 @@
 						</p>
 
 					</div>
-				</div>
-				<div class="row">
 					<div class="work-item">
 						<a href="http://www.juliegrajeda.com" target="_blank"> <img class="julie-img" src="images/dist/work/julie-grajeda-800.png" alt="julie grajeda" /> </a>
 						<h2>Julie Grajeda</h2>
@@ -146,22 +163,12 @@
 						<p>
 							<span>html, css, js, responsive web design</span>
 						</p>
-						<p><a href="http://www.juliegrajeda.com" target="_blank">www.juliegrajeda.com</a></p>
+						<p>
+							<a href="http://www.juliegrajeda.com" target="_blank">www.juliegrajeda.com</a>
+						</p>
 
 					</div>
 
-					<div class="work-item">
-						<a href="http://www.alessiogaudio.com" target="_blank"> <img class="ale-img" src="images/dist/work/alessio-gaudio-800.png" alt="alessio gaudio" /> </a>
-						<h2>Alessio Gaudio</h2>
-						<p>
-							Alessio is a friend and a very talented video-maker. I decided to help him with his career designing
-							and coding his website.
-						</p>
-						<p>
-							<span>html, css, js, responsive web design, graphic design</span>
-						</p>
-						<p><a href="http://www.alessiogaudio.com" target="_blank">www.alessiogaudio.com</a></p>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -172,5 +179,5 @@
 		<?php
 		include 'scripts.php';
 		?>
-	</body>
+		</body>
 </html>

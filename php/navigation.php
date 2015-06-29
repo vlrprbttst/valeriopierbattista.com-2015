@@ -20,9 +20,6 @@
 				<a href="work.php"><i class="fa fa-code"></i> Work</a>
 			</li>
 			<li>
-				<a href="projects.php"><i class="fa fa-cogs"></i> Projects</a>
-			</li>
-			<li>
 				<a href="/blog"><i class="fa fa-pencil"></i> Blog</a>
 			</li>
 			<li>

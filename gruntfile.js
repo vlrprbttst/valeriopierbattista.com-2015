@@ -19,10 +19,7 @@ module.exports = function(grunt) {
 				tasks : ['delete_sync:delete_images']
 			}, // end of delete sync for images
 			
-			deleting_php : {
-				files : ['php/*.php'],
-				tasks : ['delete_sync:delete_php']
-			}, // end of delete sync for php
+
 
 			scripts : {
 				files : ['js/libs/*.js', 'js/custom/*.js', '!js/libs/prism.js'],
@@ -93,12 +90,7 @@ module.exports = function(grunt) {
 				cwd : 'images/dist',
 				src : ['**'],
 				syncWith : 'images/src'
-			}, //end of delete images
-			delete_php : {
-				cwd : './',
-				src : ['**'],
-				syncWith : 'php/*.php'
-			},//end of delete php
+			} //end of delete images
 		}, // end of delete sync
 
 		imagemin : {
