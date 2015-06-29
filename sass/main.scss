@@ -432,73 +432,7 @@ $bar-bg:lighten($secondaryTextColor,25%);
     animation:equalizer .4s infinite ease-in .2s;
   }
 }
-    }
-    
-    
-    .project {
-      @include clearfix;
-      background:$textPrimaryColor;
-      padding:rhythm(1) rhythm(1) rhythm(4.5);
-      margin: 0 0 rhythm(1);
-      box-shadow: 0 0 5px rgba(0,0,0,.155);
-      position: relative;
-      
-      .goto {
-        @include sassy-button("simple", 10px, 16px, $darkPrimaryColor);
-        position: absolute;
-        padding: 0;
-        top: rhythm(1);
-        right: rhythm(1);
-        text-transform: capitalize;
-        font-family:'source code pro';
-        
-        @include respond-to(64) {
-          position: static;
-          margin:0 0 rhythm(1.5) 0;
-        }
-        
-        a {
-          @include unstyled-link;
-          display: block;
-          padding: rhythm(.5) rhythm(.8); 
-        }
-      }
-      
-      h2 span  {
-        @include adjust-font-size-to(11px); 
-        font-family: 'Source Code Pro' ;
-        font-weight:300;
-      }
-      
-      .links {
-        p {@include reset; }
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: #fafafa;
-        padding:rhythm(1);
-      }
-      
-      p {@include reset;      }
-      
-      .description {
-      float: left; 
-      width: 80%; 
-      }
-      
-      .image {
-       float: right; 
-      width: 20%; 
-      padding:0 rhythm(1) 0 0;
-      
-      img {border-radius:15px}
-      }
-      
-
-      
-    }//project
-
+}
 
 @import "partials/_blog.scss";
 @import "partials/_prism.scss";
