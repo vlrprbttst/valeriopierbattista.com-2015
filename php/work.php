@@ -36,7 +36,7 @@
 							<span>html, css, js, responsive web design, concept, graphic design</span>
 						</p>
 						<p>
-							<a href="http://www.hypertvx.com" target="_blank">www.drunkuserexperience.com</a>
+							<a href="http://www.drunkuserexperience.com" target="_blank">www.drunkuserexperience.com</a>
 						</p>
 					</div>
 
