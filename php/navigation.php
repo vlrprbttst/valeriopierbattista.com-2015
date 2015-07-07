@@ -1,3 +1,4 @@
+<div class="menu-placeholder">
 <div class="sidebar">
 	<i class="fa fa-bars"></i>
 	<div class="sub-container-sidebar">
@@ -28,3 +29,4 @@
 		</ul>
 	</nav>
 </div>
+</div><!-- menu mobile placeholder -->

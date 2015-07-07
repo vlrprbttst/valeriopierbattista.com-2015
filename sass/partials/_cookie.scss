@@ -6,8 +6,13 @@
   line-height:16px;
   font-family: 'Source Code Pro';
   text-align: center;
+  position:fixed;
+  z-index:999;
+  bottom: 0;
+  left: 0;
   
   @include respond-to-min(64) {
+    position:static;
     float: right;
     width: 75%;
   }

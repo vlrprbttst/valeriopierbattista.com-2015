@@ -1,5 +1,18 @@
 /* main navigation */
 
+  .mobilemenufixed {
+    position: fixed!important;
+    top: 0!important;
+    left: 0!important;
+    box-shadow:0 5px 5px rgba(0,0,0,.25);
+  }
+
+.menu-placeholder {
+  @include respond-to-min(64) {
+  height:auto!important;
+  }
+}
+
 .name {
   @include adjust-font-size-to(18px,1.2);
   font-weight:700;
@@ -78,3 +91,4 @@
       }
     }
   }
+  
