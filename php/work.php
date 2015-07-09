@@ -120,11 +120,6 @@
 						<p>
 							<span>html and css code refactoring, front end development of in-app templates, responsive conversion of the previous fixed-width app architecture</span>
 						</p>
-						<p>
-							Download it on <a href="https://itunes.apple.com/it/app/mediaset-connect/id684893414?mt=8&amp;ls=1"> <i class="fa fa-apple" style="padding-right:5px;color:#222"></i>Itunes </a>
-							or
-							<a href="https://play.google.com/store/apps/details?id=it.mediaset.mediasetconnect.android"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
-						</p>
 					</div>
 				</div>
 				<div class="row">
@@ -140,18 +135,6 @@
 						<p>
 							<span>html and css code refactoring, front end development of in-app templates, responsive conversion of the previous fixed-width app architecture</span>
 						</p>
-						<p>
-							Download <b>The Stream Aljazeera America</b> on <a href="https://itunes.apple.com/us/app/the-stream-al-jazeera-america/id685748770?mt=8"> <i class="fa fa-apple" style="padding-right:5px;color:#222"></i>Itunes </a>
-							or
-							<a href="https://play.google.com/store/apps/details?id=com.hypertvx.aljazeeraamerica&amp;hl=it"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
-							<br>
-							<br>
-							Download <b>The Stream Aljazeera English</b> on <a href="https://itunes.apple.com/us/app/the-stream-al-jazeera-english/id685746478?mt=8"> <i class="fa fa-apple" style="padding-right:5px;color:#222"></i>Itunes </a>
-							or
-							<a href="https://play.google.com/store/apps/details?id=com.hypertvx.aljazeera"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
-
-						</p>
-
 					</div>
 					<div class="work-item">
 						<a href="http://www.juliegrajeda.com" target="_blank"> <img class="julie-img" src="images/dist/work/julie-grajeda-800.png" alt="julie grajeda" /> </a>
