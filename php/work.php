@@ -24,7 +24,7 @@ include 'css/above-the-fold.css.php';
 		<div class="page-container">
 			<div class="sub-container work">
 				<h1> Work</h1>
-
+<!-- 
 				<div class="row">
 					<div class="work-item">
 						<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
@@ -44,7 +44,7 @@ include 'css/above-the-fold.css.php';
 							or
 							<a href="https://play.google.com/store/apps/details?id=it.vetrya.sportitalia&hl=it"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
 						</p>
-					</div><!-- work item -->
+					</div>
 					<div class="work-item">
 						<a href="http://www.ohmyboot.it" target="_blank"> <img src="images/dist/work/omb.png" alt="ohmyboot" /> </a>
 						<h2>Ohmyboot Clothing</h2>
@@ -60,7 +60,7 @@ include 'css/above-the-fold.css.php';
 						</p>
 					</div>
 				</div>
-				<!-- row -->
+				-->
 
 				<div class="row">
 
