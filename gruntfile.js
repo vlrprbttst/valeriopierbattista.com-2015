@@ -173,7 +173,7 @@ module.exports = function(grunt) {
 				},
 				src : './',
 				dest : '/www',
-				exclusions : ['.sass-cache', '.git', 'images/src','node_modules','.ftppass','.gitignore','gruntfile.js','README.md','php','package.json'],
+				exclusions : ['.sass-cache', '.git', 'images/src','node_modules','.ftppass','.gitignore','gruntfile.js','README.md','php','package.json','sass','_PSD'],
 				keep : ['blog','cv','projects'],
 				simple : false,
 				useList : false
