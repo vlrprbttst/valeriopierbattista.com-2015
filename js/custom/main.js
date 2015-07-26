@@ -58,17 +58,23 @@ function mobileMenu() {
 
 	var wWidth = $(window).width();
 	var menuHeight = $('.sidebar').outerHeight(true);
-	
+	var myElement = document.querySelector(".sidebar");
+	var headroom = new Headroom(myElement, {
+		"offset" : 200,
+		"tolerance" : 5
+	});
+
 	if (wWidth <= 1024) {
-	$('.menu-placeholder').css('height', menuHeight + "px");
-	$('.sidebar').addClass("mobilemenufixed");
-	}//if
-	
-	else {
-		$('.sidebar').removeClass("mobilemenufixed");
+
+		$('.menu-placeholder').css('height', menuHeight + "px");
+		headroom.init();
+
+	} else {
+		headroom.destroy();
 	}
 
 };
 
 mobileMenu();
 $(window).resize(mobileMenu);
+

@@ -33,33 +33,6 @@ body {
   -webkit-overflow-scrolling:touch;
   }
 
-.sidebar {
-  @include span(3 of 12);
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: $darkPrimaryColor;
-  color:$textPrimaryColor;
-  z-index:100;
-  
-  i.fa.fa-bars {display:none;}
-  
-  @include respond-to(64) {
-    @include span(12 of 12);
-    position:relative;
-    height:auto;
-    
-    i.fa.fa-bars {display:block;
-    
-    padding:10px 20px;
-    right:0;
-    top:20px;
-    position:absolute;
-    @include adjust-font-size-to(24px)}
-  } 
-}
-
 .profile-pic {
   max-width:150px;
   float: left;
