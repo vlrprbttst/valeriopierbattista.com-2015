@@ -18,8 +18,6 @@ module.exports = function(grunt) {
 				files : ['images/src/*.{png,jpg,gif}'],
 				tasks : ['delete_sync:delete_images']
 			}, // end of delete sync for images
-			
-
 
 			scripts : {
 				files : ['js/libs/*.js', 'js/custom/*.js', '!js/libs/prism.js'],
@@ -164,6 +162,22 @@ module.exports = function(grunt) {
 
 				}
 			}
+		},
+
+		ftpush : {
+			build : {
+				auth : {
+					host : 'ftp.valeriopierbattista.com',
+					port : 21,
+					authKey : 'key1'
+				},
+				src : './',
+				dest : '/www',
+				exclusions : ['.sass-cache', '.git', 'images/src','node_modules','.ftppass','.gitignore','gruntfile.js','README.md','php'],
+				keep : ['blog','cv','projects'],
+				simple : false,
+				useList : false
+			}
 		}
 	});
 
@@ -179,7 +193,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-delete-sync');
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-penthouse');
+	grunt.loadNpmTasks('grunt-ftpush');
 
-	// define default task
+	// define tasks
 	grunt.registerTask('default', ["browserSync", "watch"]);
+	
 };

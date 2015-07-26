@@ -19,7 +19,8 @@ $RECYCLE.BIN/
 .sass-cache
 node_modules
 npm-debug.log
-
+.ftppass
+.grunt
 
 # =========================
 # Operating System Files
