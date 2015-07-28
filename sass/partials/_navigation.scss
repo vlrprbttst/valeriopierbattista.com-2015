@@ -116,6 +116,7 @@
 .headroom { 
   
   @include respond-to(64) {  
+  
   transition:all 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
       position: fixed;
     top: 0;
