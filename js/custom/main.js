@@ -57,7 +57,6 @@ function eraseCookie(name) {
 function mobileMenu() {
 
 	var wWidth = $(window).width();
-	var menuHeight = $('.sidebar').outerHeight(true);
 	var myElement = document.querySelector(".sidebar");
 	var headroom = new Headroom(myElement, {
 		"offset" : 200,
@@ -66,7 +65,6 @@ function mobileMenu() {
 
 	if (wWidth <= 1024) {
 
-		$('.menu-placeholder').css('height', menuHeight + "px");
 		headroom.init();
 
 	} else {
@@ -77,4 +75,21 @@ function mobileMenu() {
 
 mobileMenu();
 $(window).resize(mobileMenu);
+
+function mobileMenuPlaceholder() {
+
+	var wWidth = $(window).width();
+	var menuHeight = $('.sidebar').outerHeight(true);
+
+	if (wWidth <= 1024) {
+
+		$('.menu-placeholder').css('height', menuHeight + "px");
+	}
+};
+
+setTimeout(function() {
+	mobileMenuPlaceholder();
+}, 500);
+
+$(window).resize(mobileMenuPlaceholder);
 

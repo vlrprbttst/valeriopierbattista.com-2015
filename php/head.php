@@ -23,6 +23,7 @@ I love simple and functional interfaces optimized for anything that can access t
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <![endif]-->
+
 </head>
 <body class="container">
 	<div id="info_cookie" class="cookie-hidden">
