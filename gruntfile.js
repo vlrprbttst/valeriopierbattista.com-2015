@@ -36,8 +36,8 @@ module.exports = function(grunt) {
 			},
 
 			css : {
-				files : ['sass/**/*.scss', '!.sass-cache'],
-				tasks : ['sass', 'autoprefixer', 'penthouse'],
+				files : ['sass/**/*.scss'],
+				tasks : ['sass', 'postcss', 'penthouse'],
 				options : {
 					spawn : false,
 				}
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 			extract : {
 				outfile : 'css/above-the-fold.css.php',
 				css : 'css/main.css',
-				url : 'http://localhost:3000/valeriopierbattista.com-2015',
+				url : 'localhost/valeriopierbattista.com-2015',
 				width : 1300,
 				height : 500
 			},
@@ -124,9 +124,9 @@ module.exports = function(grunt) {
 		sass : {
 			dist : {
 				options : {
-					style : 'compressed', //no need for config.rb
+					style : 'nested', //no need for config.rb
 					compass : 'true', //no need to @import compass
-					require : ['susy', 'sassy-buttons']
+					require : ['susy']
 					// plugins if needed!
 				},
 				files : {
@@ -135,29 +135,28 @@ module.exports = function(grunt) {
 			}
 		}, //end of sass
 
-		autoprefixer : {
-
+		postcss : {
 			options : {
 				map : true,
-				browsers : ['> 5%', 'last 2 version', 'ie 8', 'ie 9']
+				processors : [
+				require('pixrem')(), // add fallbacks for rem units
+		        require('autoprefixer-core')({browsers: 'last 2 version, IE 9'}), // add vendor prefixes. for more: https://github.com/ai/browserslist
+		        require('cssnano')() // minify the result
+				]
 			},
-
 			dist : {
-				files : {
-					'css/main.css' : 'css/main.css'
-				}
-
+				src : 'css/main.css'
 			}
-		}, //end of autoprefixer
+		},
 
 		browserSync : {
 			dev : {
 				bsFiles : {
-					src : ['css/*.css', 'images/*.*', 'js/build/production.min.js', '*.php']
+					src : ['css/*.css', 'images/*.*', 'js/build/production.min.js', '*.php','!.sass-cache']
 				},
 				options : {
 
-					proxy : "http://localhost/valeriopierbattista.com-2015/",
+					proxy : "localhost/valeriopierbattista.com-2015",
 					watchTask : true // < VERY important
 
 				}
@@ -187,7 +186,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-autoprefixer');
+	grunt.loadNpmTasks('grunt-postcss');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-newer');
 	grunt.loadNpmTasks('grunt-delete-sync');

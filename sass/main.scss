@@ -1,19 +1,16 @@
 // base
 @import "compass"; 
 @import "susy";
-@import "sassy-buttons";
 @import "partials/_reset.scss"; 
 @import "partials/_mixin.scss";
 @import "partials/_variables.scss";
 @import "partials/_navigation.scss";
-
 
 html {
   box-sizing: border-box;
   height:100%;
 }
 
- 
 *,
 *:before,
 *:after {
