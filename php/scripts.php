@@ -2,7 +2,7 @@
 	var cb = function() {
 		var l = document.createElement('link');
 		l.rel = 'stylesheet';
-		l.href = 'css/main.css';
+		l.href = 'http://valeriopierbattista.com/css/main.css';
 		var h = document.getElementsByTagName('head')[0].lastChild;
 		h.parentNode.insertBefore(l, h);
 	};
