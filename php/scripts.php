@@ -1,4 +1,18 @@
-<!-- JS scripts -->
+<script charset="utf-8">
+	var cb = function() {
+		var l = document.createElement('link');
+		l.rel = 'stylesheet';
+		l.href = 'css/main.css';
+		var h = document.getElementsByTagName('head')[0].lastChild;
+		h.parentNode.insertBefore(l, h);
+	};
+	var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+	if (raf)
+		raf(cb);
+	else
+		window.addEventListener('load', cb);
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,4 +25,3 @@
 </script>
 
 <script src="js/build/production.min.js"></script>
-

@@ -61,8 +61,8 @@ module.exports = function(grunt) {
 			extract : {
 				outfile : 'css/above-the-fold.css.php',
 				css : 'css/main.css',
-				url : 'localhost/valeriopierbattista.com-2015',
-				width : 1300,
+				url : 'http://localhost/valeriopierbattista.com-2015',
+				width : 1200,
 				height : 500
 			},
 		},
