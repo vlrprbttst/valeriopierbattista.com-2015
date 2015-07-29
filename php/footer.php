@@ -42,11 +42,4 @@
 		<!-- /social-cont -->
 	</div>
 </footer>
-<!-- FONTS -->
-<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Merriweather:400,700' rel='stylesheet' type='text/css'>
 
-<!-- CSS -->
-<link rel="stylesheet" href="css/main.css" />
-
-<!-- font awesome 4.2.0 -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
