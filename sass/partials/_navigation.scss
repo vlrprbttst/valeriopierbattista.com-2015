@@ -1,7 +1,7 @@
 /* main navigation */
 
 
-.sidebar {
+.this-sidebar {
   @include span(3 of 12);
   position: fixed;
   top: 0;
@@ -11,14 +11,14 @@
   color:$textPrimaryColor;
   z-index:100;
   
-  i.fa.fa-bars {display:none;}
+  #bars {display:none;}
   
   @include respond-to(64) {
     @include span(12 of 12);
     position:relative;
     height:auto;
     
-    i.fa.fa-bars {display:block;
+    #bars {display:block;
     
     padding:10px 20px;
     right:0;

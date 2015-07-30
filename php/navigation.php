@@ -1,6 +1,6 @@
 <div class="menu-placeholder">
-<div class="sidebar">
-	<i class="fa fa-bars"></i>
+<div class="this-sidebar">
+	<i id="bars" class="fa fa-bars"></i>
 	<div class="sub-container-sidebar">
 		<section itemscope itemtype="http://data-vocabulary.org/Person">
 			<span itemprop="name" class="name">Valerio Pierbattista</span>

@@ -1,11 +1,12 @@
-$('.sidebar i.fa.fa-bars').click(function() {
+$('#bars').click(function() {
+	$('#bars').toggleClass('fa-bars fa-remove');
 	$('nav').toggleClass('mobile-menu-visible');
 });
 
 function navHeight() {
 
 	var heights = window.innerHeight;
-	var outerHeights = $(".sidebar .sub-container-sidebar").outerHeight(true) + $("footer .sub-container-sidebar").outerHeight(true);
+	var outerHeights = $(".this-sidebar .sub-container-sidebar").outerHeight(true) + $("footer .sub-container-sidebar").outerHeight(true);
 	$('nav.nav ul').css('height', (heights - outerHeights) + "px");
 
 };
@@ -57,7 +58,7 @@ function eraseCookie(name) {
 function mobileMenu() {
 
 	var wWidth = $(window).width();
-	var myElement = document.querySelector(".sidebar");
+	var myElement = document.querySelector(".this-sidebar");
 	var headroom = new Headroom(myElement, {
 		"offset" : 200,
 		"tolerance" : 5
@@ -79,7 +80,7 @@ $(window).resize(mobileMenu);
 function mobileMenuPlaceholder() {
 
 	var wWidth = $(window).width();
-	var menuHeight = $('.sidebar').outerHeight(true);
+	var menuHeight = $('.this-sidebar').outerHeight(true);
 
 	if (wWidth <= 1024) {
 
@@ -89,7 +90,7 @@ function mobileMenuPlaceholder() {
 
 setTimeout(function() {
 	mobileMenuPlaceholder();
-}, 500);
+}, 1000);
 
 $(window).resize(mobileMenuPlaceholder);
 

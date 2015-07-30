@@ -10,8 +10,10 @@
   z-index:999;
   bottom: 0;
   left: 0;
+  width: 100%;
   
-  @include respond-to-min(64) {
+  
+  @media all and (min-width:1025px){
     position:static;
     float: right;
     width: 75%;
@@ -43,8 +45,8 @@
   }
 }
 .cookie-hidden {
-  display: none;
+  display: none!important;
 }
 .cookie-visible {
-  display: block;
+  display: block!important;
 }

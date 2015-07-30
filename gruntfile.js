@@ -156,7 +156,7 @@ module.exports = function(grunt) {
 		browserSync : {
 			dev : {
 				bsFiles : {
-					src : ['css/*.css', 'images/*.*', 'js/build/production.min.js', '*.php', '!.sass-cache']
+					src : ['css/*.php', 'images/*.*', 'js/build/production.min.js', '*.php', '!.sass-cache']
 				},
 				options : {
 

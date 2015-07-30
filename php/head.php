@@ -26,7 +26,7 @@ I love simple and functional interfaces optimized for anything that can access t
 
 </head>
 <body class="container">
-	<div id="info_cookie" class="cookie-hidden">
+	<div id="info_cookie" style="display:none" class="cookie-hidden">
 		Questo sito raccoglie dati statistici anonimi sulla navigazione, mediante cookie installati da terze parti autorizzate, 
 		rispettando la privacy dei tuoi dati personali e secondo le norme previste dalla legge. Continuando a navigare su questo sito
 		accetti il servizio e gli stessi cookie.<br>
