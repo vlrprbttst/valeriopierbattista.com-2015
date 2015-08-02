@@ -77,20 +77,3 @@ function mobileMenu() {
 mobileMenu();
 $(window).resize(mobileMenu);
 
-function mobileMenuPlaceholder() {
-
-	var wWidth = $(window).width();
-	var menuHeight = $('.this-sidebar').outerHeight(true);
-
-	if (wWidth <= 1024) {
-
-		$('.menu-placeholder').css('height', menuHeight + "px");
-	}
-};
-
-setTimeout(function() {
-	mobileMenuPlaceholder();
-}, 1000);
-
-$(window).resize(mobileMenuPlaceholder);
-

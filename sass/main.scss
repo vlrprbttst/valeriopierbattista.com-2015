@@ -29,6 +29,10 @@ body {
   background:$pageBackground;
   @include container;
   -webkit-overflow-scrolling:touch;
+  
+  @include respond-to(64) {
+   padding:101px 0 0 ; 
+  }
   }
 
 .profile-pic {

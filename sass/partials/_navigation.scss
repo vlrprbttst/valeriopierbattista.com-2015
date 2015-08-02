@@ -15,10 +15,8 @@
   
   @include respond-to(64) {
     @include span(12 of 12);
-    position:relative;
-    height:auto;
     box-shadow:0 5px 10px rgba(0,0,0,.2);
-    
+    height: auto;
     #bars {display:block;
     
     padding:10px 20px;
