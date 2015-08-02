@@ -17,6 +17,7 @@
     @include span(12 of 12);
     position:relative;
     height:auto;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
     
     #bars {display:block;
     
@@ -28,11 +29,10 @@
   } 
 }
 
-
-.name {
-  @include adjust-font-size-to(18px,1.2);
-  font-weight:700;
-}
+  .name {
+    @include adjust-font-size-to(18px,1.2);
+    font-weight:700;
+  }
 
   .job {color:$lightPrimaryColor}
   

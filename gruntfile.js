@@ -37,12 +37,12 @@ module.exports = function(grunt) {
 
 			css : {
 				files : ['sass/**/*.scss'],
-				tasks : ['sass', 'postcss', 'penthouse'],
+				tasks : ['sass', 'postcss', 'penthouse:index'],
 				options : {
 					spawn : false,
 				}
 			}, //end of sass watch
-			
+
 			grunt : {
 				files : ['gruntfile.js']
 			}
@@ -58,10 +58,31 @@ module.exports = function(grunt) {
 		 */
 
 		penthouse : {
-			extract : {
+			index : {
 				outfile : 'css/above-the-fold.css.php',
 				css : 'css/main.css',
 				url : 'http://localhost/valeriopierbattista.com-2015',
+				width : 1200,
+				height : 500
+			},
+			work : {
+				outfile : 'css/above-the-fold-work.css.php',
+				css : 'css/main.css',
+				url : 'http://localhost/valeriopierbattista.com-2015/work.php',
+				width : 1200,
+				height : 500
+			},
+			blog : {
+				outfile : 'css/above-the-fold-blog.css.php',
+				css : 'css/main.css',
+				url : 'http://valeriopierbattista.com/blog/',
+				width : 1200,
+				height : 500
+			},
+			contact : {
+				outfile : 'css/above-the-fold-contact.css.php',
+				css : 'css/main.css',
+				url : 'http://valeriopierbattista.com/blog/contact/',
 				width : 1200,
 				height : 500
 			},
@@ -141,8 +162,7 @@ module.exports = function(grunt) {
 		postcss : {
 			options : {
 				map : true,
-				processors : [require('pixrem')(), // add fallbacks for rem units
-				require('autoprefixer-core')({
+				processors : [require('autoprefixer-core')({
 					browsers : 'last 2 version, IE 9'
 				}), // add vendor prefixes. for more: https://github.com/ai/browserslist
 				require('cssnano')() // minify the result
@@ -177,7 +197,7 @@ module.exports = function(grunt) {
 				src : './',
 				dest : '/www',
 				exclusions : ['.sass-cache', '.git', 'images/src', 'node_modules', '.ftppass', '.gitignore', 'gruntfile.js', 'README.md', 'php', 'package.json', 'sass', '_PSD'],
-				keep : ['blog', 'cv', 'projects','prova'],
+				keep : ['blog', 'cv', 'projects', 'prova'],
 				simple : false,
 				useList : false
 			}

@@ -10,7 +10,7 @@
 		<!-- critical above the fold css -->
 		<style type="text/css">
 <?php
-include 'css/above-the-fold.css.php';
+include 'css/above-the-fold-work.css.php';
 ?>
 		</style>
 		<?php
@@ -24,41 +24,41 @@ include 'css/above-the-fold.css.php';
 		<div class="page-container">
 			<div class="sub-container work">
 				<h1> Work</h1>
-<!-- 
+				<!--
 				<div class="row">
-					<div class="work-item">
-						<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
-						<h2>Sportitalia</h2>
-						<p>
-							I took part in the update of Sportitalia online presence rebuilding their website and mobile app: I was responsible of creating
-							the responsive layout, developing the css and some of the javascript. Both the website and the app are built upon the Liferay CMS.
-						</p>
-						<p>
-							<span>html, css, js, responsive web design</span>
-						</p>
-						<p>
-							<a href="http://www.sportitalia.com" target="_blank">www.sportitalia.com</a>
-						</p>
-						<p>
-							Download the app on <a href="https://itunes.apple.com/it/app/sportitalia/id918571559?mt=8"> <i class="fa fa-apple" style="padding-right:5px;color:#222"></i>Itunes </a>
-							or
-							<a href="https://play.google.com/store/apps/details?id=it.vetrya.sportitalia&hl=it"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
-						</p>
-					</div>
-					<div class="work-item">
-						<a href="http://www.ohmyboot.it" target="_blank"> <img src="images/dist/work/omb.png" alt="ohmyboot" /> </a>
-						<h2>Ohmyboot Clothing</h2>
-						<p>
-							Landing page for a new t-shirt brand which promotes clothing products that are completely Made in Italy. A set
-							of t-shirts designed to promote some of the icons that made Italy such an important country in the world's culture. 
-						</p>
-						<p>
-							<span>html, css, js, responsive web design</span>
-						</p>
-						<p>
-							<a href="http://www.ohmyboot.it" target="_blank">www.ohmyboot.it</a>
-						</p>
-					</div>
+				<div class="work-item">
+				<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
+				<h2>Sportitalia</h2>
+				<p>
+				I took part in the update of Sportitalia online presence rebuilding their website and mobile app: I was responsible of creating
+				the responsive layout, developing the css and some of the javascript. Both the website and the app are built upon the Liferay CMS.
+				</p>
+				<p>
+				<span>html, css, js, responsive web design</span>
+				</p>
+				<p>
+				<a href="http://www.sportitalia.com" target="_blank">www.sportitalia.com</a>
+				</p>
+				<p>
+				Download the app on <a href="https://itunes.apple.com/it/app/sportitalia/id918571559?mt=8"> <i class="fa fa-apple" style="padding-right:5px;color:#222"></i>Itunes </a>
+				or
+				<a href="https://play.google.com/store/apps/details?id=it.vetrya.sportitalia&hl=it"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
+				</p>
+				</div>
+				<div class="work-item">
+				<a href="http://www.ohmyboot.it" target="_blank"> <img src="images/dist/work/omb.png" alt="ohmyboot" /> </a>
+				<h2>Ohmyboot Clothing</h2>
+				<p>
+				Landing page for a new t-shirt brand which promotes clothing products that are completely Made in Italy. A set
+				of t-shirts designed to promote some of the icons that made Italy such an important country in the world's culture.
+				</p>
+				<p>
+				<span>html, css, js, responsive web design</span>
+				</p>
+				<p>
+				<a href="http://www.ohmyboot.it" target="_blank">www.ohmyboot.it</a>
+				</p>
+				</div>
 				</div>
 				-->
 
