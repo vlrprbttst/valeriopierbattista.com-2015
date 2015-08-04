@@ -1,7 +1,7 @@
 // base
-@import "compass"; 
+@import "compass";
 @import "susy";
-@import "partials/_reset.scss"; 
+@import "partials/_reset.scss";
 @import "partials/_mixin.scss";
 @import "partials/_variables.scss";
 @import "partials/_navigation.scss";
@@ -29,9 +29,9 @@ body {
   background:$pageBackground;
   @include container;
   -webkit-overflow-scrolling:touch;
-  
+
   @include respond-to(64) {
-   padding:101px 0 0 ; 
+   padding:101px 0 0 ;
   }
   }
 
@@ -49,34 +49,34 @@ body {
   margin:0 auto;
   float: none;
   padding: rhythm(2) 0 rhythm(1);
-  
+
     @include respond-to(64) {
     @include span(12 of 12);
     float: none;
     padding:rhythm(1) span(1);
   }
-  
+
 }
 
 .page-container {
-  
+
   @include span(9 of 12);
   float: right;
-  
+
     @include respond-to(64) {
     @include span(12 of 12);
     padding:rhythm(1) 0;
   }
-  
+
   @include respond-to(30) {
     padding:0;}
-  
+
 }
 
 .sub-container {
-  
+
   &.work {@include clearfix}
-  
+
   @include span(7 of 9);
   float: none;
   padding:rhythm(1) 0;
@@ -88,62 +88,62 @@ body {
     padding:rhythm(0) span(.5);
     float: none;
   }
-  
+
   .work-item {
-    
+
     img {
       margin:0 0 rhythm(1);
     }
-    
+
     p span {background:#eee;color:$primaryTextColor;font-family: 'Source Code Pro';}
-    
+
     @include span(4.3 of 9);
     background:$textPrimaryColor;
     padding:rhythm(1);
-    
+
     box-shadow: 0 0 5px rgba(0,0,0,.155);
-    
+
     &:nth-child(odd) {
       margin:0 span(.25) span(.5) 0;
     }
-    
+
     &:nth-child(even) {
       margin:0 0 span(.5) span(.25);
     }
-    
+
     @include respond-to(90) {
       @include span(9 of 9);
           &:nth-child(odd) {
       margin:span(.5) 0;
     }
-    
+
     &:nth-child(even) {
        margin:span(.5) 0;
     }
     }
-    
+
   }
-  
+
 }
 
 h1 {
-  
+
    @include adjust-font-size-to(36px,2);
   color: $primaryColor;
   font-weight: 700;
   margin:0 0 rhythm(.5) 0;
-  
+
   br {
     @include respond-to-min(30) {display:none}
   }
-  
+
   @include respond-to(30) {
     @include adjust-font-size-to(26px,1.4);
     margin:rhythm(.5) 0;
   }
-  
+
   }
-  
+
 h2 {
 @include adjust-font-size-to(24px,1.5);
 color:$secondaryTextColor;
@@ -165,11 +165,11 @@ font-weight: 700;
 p,li {
   @include adjust-font-size-to(16px,1.2);
   font-weight: 400;
-  
+
     @include respond-to(30) {
     @include adjust-font-size-to(14px,1);
   }
-  
+
   code {
     background: #eee;
     padding: 0 5px;
@@ -182,7 +182,7 @@ pre, code {font-family: 'Source Code Pro' !important;}
 a, a:visited, a:active {
   color:$primaryColor;
   text-decoration: none;
- 
+
 }
 
 a:hover {
@@ -205,24 +205,24 @@ a:hover {
   color:$textPrimaryColor;
   @include adjust-font-size-to(13px,1);
   text-align: left;
-  
+
       .sub-container-sidebar {
       @include span(3 of 3);
       padding:0 span(1) span(1);
-      
-    }
-  
 
-  
+    }
+
+
+
     @include respond-to(64) {
     @include span(12 of 12);
     padding:rhythm(1) 0;
     position:static;
-    
-    
+
+
 
   }
-  
+
   a,a:visited,a:hover {color:$textPrimaryColor;text-decoration: underline;}
 }
 
@@ -230,7 +230,7 @@ a:hover {
       @include respond-to(64) {
       @include span(12 of 12);
       text-align: center;
-    
+
   }
 }
 
@@ -242,29 +242,29 @@ a:hover {
   width: 100%;
   margin:rhythm(1) 0;
   display:inline-block;
-  
+
   @include respond-to(64) {
-    
+
     margin:rhythm(1) 0 0;
-    
+
   }
-  
+
 
 }
 
 
 #twitter-feed {
-  
+
   @include clearfix;
-  
+
   img {
     display: block;
     margin: 0 auto;
     width: auto;
     max-width:auto;
   }
-  
-  
+
+
   h1,
   .twitter-pic,
   .tweetprofilelink {display:none;}
@@ -272,26 +272,26 @@ a:hover {
   @media (max-width: 48em) {
     padding: 0;
   }
-  } 
+  }
   .twitter-article {
     margin:0;
     float:left;
     width:33.3333%;
-    
+
   @include respond-to(48) {
     float: none;
     margin-bottom: rhythm(1);
     width: 100%;
     }
   }
-  
+
 }
 
 
-#instafeed{ 
-  
+#instafeed{
+
   @include clearfix;
-  
+
   a,a:visited,a:active {
   color:$secondaryTextColor;
   &:hover {text-decoration: none; }
@@ -334,7 +334,7 @@ img {
   width:100%;
   border:0;
   vertical-align:bottom;
-  
+
   &.romaradio-img {
     background:#A62038;
     padding:10px;
@@ -348,13 +348,13 @@ img {
     color:$secondaryTextColor;
     @include adjust-font-size-to(12px,1.5);
     display: block;
-     
+
   }
 }
 
 
-/* 
-* easily control equalizer width, height and * color with the following variables 
+/*
+* easily control equalizer width, height and * color with the following variables
 *
 */
 
@@ -368,18 +368,18 @@ $bar-bg:lighten($secondaryTextColor,25%);
   0% {
     height:$eq-h;
   }
-  
+
   50% {
     height:$eq-h/2;
   }
-  
+
   100% {
     height:$eq-h;
   }
 }
 
 .eq-container {
-  
+
   position:relative;
   display: inline-block;
   width:$eq-w;
@@ -393,7 +393,7 @@ $bar-bg:lighten($secondaryTextColor,25%);
   width:$bar-w;
   height:$eq-h;
   background:$bar-bg;
-  
+
   &.left {
     left: 0;
     animation:equalizer .5s infinite cubic-bezier(0.19, 1, 0.22, 1);
@@ -402,7 +402,7 @@ $bar-bg:lighten($secondaryTextColor,25%);
     left: 50%;
     margin-left:-($bar-w)/2;
     animation:equalizer .7s infinite cubic-bezier(0.075, 0.82, 0.165, 1) .1s;
-  }  
+  }
   &.right {
     right: 0;
     animation:equalizer .4s infinite ease-in .2s;
