@@ -236,5 +236,6 @@ include 'css/above-the-fold.css.php';
 		<?php
 		include 'scripts.php';
 		?>
-		</body>
-</html>
+		<?php
+		include 'document_end.php';
+		?>
