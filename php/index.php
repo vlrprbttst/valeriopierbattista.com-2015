@@ -75,7 +75,6 @@ include 'css/above-the-fold.css.php';
 				<div id="instafeed">
 
 				</div>
-
 			</div>
 
 		</div>
