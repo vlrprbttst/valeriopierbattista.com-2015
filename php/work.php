@@ -24,7 +24,7 @@ include 'css/above-the-fold-work.css.php';
 		<div class="page-container">
 			<div class="sub-container work">
 				<h1> Work</h1>
-				<!--
+				
 				<div class="row">
 				<div class="work-item">
 				<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
@@ -49,8 +49,9 @@ include 'css/above-the-fold-work.css.php';
 				<a href="http://www.ohmyboot.it" target="_blank"> <img src="images/dist/work/omb.png" alt="ohmyboot" /> </a>
 				<h2>Ohmyboot Clothing</h2>
 				<p>
-				Landing page for a new t-shirt brand which promotes clothing products that are completely Made in Italy. A set
-				of t-shirts designed to promote some of the icons that made Italy such an important country in the world's culture.
+				Landing page for a new t-shirt brand which promotes clothing products completely Made in Italy. A set
+				of t-shirts designed to promote and celebrate some of the most iconic characters and masterpieces that 
+				made Italy such an important landmark in the world's cultural landscape.
 				</p>
 				<p>
 				<span>html, css, js, responsive web design</span>
@@ -60,7 +61,7 @@ include 'css/above-the-fold-work.css.php';
 				</p>
 				</div>
 				</div>
-				-->
+				
 
 				<div class="row">
 
