@@ -30,7 +30,7 @@ include 'css/above-the-fold-work.css.php';
 				<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
 				<h2>Sportitalia</h2>
 				<p>
-				I took part in the update of Sportitalia online presence rebuilding their website and mobile app: I was responsible of creating
+				I took part in the refresh of Sportitalia online presence, rebuilding their website and mobile app: I was responsible of creating
 				the responsive layout, developing the css and some of the javascript. Both the website and the app are built upon the Liferay CMS.
 				</p>
 				<p>
@@ -49,7 +49,7 @@ include 'css/above-the-fold-work.css.php';
 				<a href="http://www.ohmyboot.it" target="_blank"> <img src="images/dist/work/omb.png" alt="ohmyboot" /> </a>
 				<h2>Ohmyboot Clothing</h2>
 				<p>
-				Landing page for a new t-shirt brand which promotes clothing products completely Made in Italy. A set
+				This is a landing page for a new t-shirt brand which promotes clothing products completely Made in Italy. A set
 				of t-shirts designed to promote and celebrate some of the most iconic characters and masterpieces that 
 				made Italy such an important landmark in the world's cultural landscape.
 				</p>

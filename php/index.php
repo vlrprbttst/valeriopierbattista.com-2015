@@ -30,7 +30,6 @@ include 'css/above-the-fold.css.php';
 
 				<img src="images/dist/valeriopierbattista.png" class="profile-pic" data-src="images/dist/amazing.gif">
 				<p>
-
 					I am a <b>Front End Developer</b> and <b>Web Designer</b> living in  Rome, Italy. I love simple and functional
 					interfaces optimized for anything that can access the web.
 					I work with
