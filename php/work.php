@@ -24,7 +24,41 @@ include 'css/above-the-fold-work.css.php';
 		<div class="page-container">
 			<div class="sub-container work">
 				<h1> Work</h1>
+
+				<div class="row">
+					<div class="work-item">
+						<a href="http://www.ohmyboot.it" target="_blank"> <img src="images/dist/work/omb.png" alt="ohmyboot" /> </a>
+						<h2>Ohmyboot Clothing</h2>
+						<p>
+							This is a landing page for a new t-shirt brand which promotes clothing products completely Made in Italy. A set
+							of t-shirts designed to promote and celebrate some of the most iconic characters and masterpieces that
+							made Italy such an important landmark in the world's cultural landscape.
+						</p>
+						<p>
+							<span>html, css, js, responsive web design</span>
+						</p>
+						<p>
+							<a href="http://www.ohmyboot.it" target="_blank">www.ohmyboot.it</a>
+						</p>
+					</div>
+					<div class="work-item">
+						<a href="http://www.wutsapp.net" target="_blank"> <img src="images/dist/work/wutsapp.png" alt="wutsapp" /> </a>
+						<h2>WUTsapp</h2>
+						<p>
+							WUTsapp is a small web app created in collaboration with <a href="https://www.linkedin.com/in/patriziomunzi" target="_blank">Patrizio Munzi</a>, and it's a collection of funny chat
+							conversations. I've created the graphics, the concept and I've recreated the <a href="http://codepen.io/vlrprbttst/pen/dYPwbX" target="_blank">Whatsapp interface</a> with HTML and CSS. 
+							The source is on <a href="https://github.com/vlrprbttst/wutsapp" target="_blank">Github</a> and contributions are very welcome.
+						</p>
+						<p>
+							<span>html, css, graphic design, responsive web design</span>
+						</p>
+						<p>
+							<a href="http://www.wutsapp.net" target="_blank">www.wutsapp.net</a>
+						</p>
+					</div>
+				</div>
 				
+				<!--
 				<div class="row">
 				<div class="work-item">
 				<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
@@ -45,23 +79,7 @@ include 'css/above-the-fold-work.css.php';
 				<a href="https://play.google.com/store/apps/details?id=it.vetrya.sportitalia&hl=it"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
 				</p>
 				</div>
-				<div class="work-item">
-				<a href="http://www.ohmyboot.it" target="_blank"> <img src="images/dist/work/omb.png" alt="ohmyboot" /> </a>
-				<h2>Ohmyboot Clothing</h2>
-				<p>
-				This is a landing page for a new t-shirt brand which promotes clothing products completely Made in Italy. A set
-				of t-shirts designed to promote and celebrate some of the most iconic characters and masterpieces that 
-				made Italy such an important landmark in the world's cultural landscape.
-				</p>
-				<p>
-				<span>html, css, js, responsive web design</span>
-				</p>
-				<p>
-				<a href="http://www.ohmyboot.it" target="_blank">www.ohmyboot.it</a>
-				</p>
-				</div>
-				</div>
-				
+				</div> -->
 
 				<div class="row">
 
