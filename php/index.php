@@ -31,34 +31,10 @@ include 'css/above-the-fold.css.php';
 				<img src="images/dist/valeriopierbattista.png" class="profile-pic" data-src="images/dist/amazing.gif">
 				<p>
 					I am a <b>Front End Developer</b> and <b>Web Designer</b> living in  Rome, Italy. I love simple and functional
-					interfaces optimized for anything that can access the web.
-					I work with
-					<code class="language-markup">
-						html
-					</code>,
-					<code class="language-markup">
-						css
-					</code>,
-					<code class="language-markup">
-						jQuery
-					</code>
-					and Photoshop, boosting productivity
-					with tools such as
-					<code class="language-markup">
-						sass
-					</code>,
-					<code class="language-markup">
-						compass
-					</code>, Emmet and
-					<code class="language-markup">
-						grunt
-					</code>
-					.
-					You can read more about me on my <a href="/cv" target="_blank"><i class="fa fa-file-text"></i> online résumé</a>.
+					interfaces optimized for anything that can access the web. You can read more about me on my <a href="/cv" target="_blank"><i class="fa fa-file-text"></i> online résumé</a>.
 				</p>
 				<p>
-					I'm currently employed at <a href="http://hypertvx.com" target="_blank">HyperTV</a> where I develop second-screen apps for clients
-					such as Mediaset, Aljazeera, AS Roma and Sky.
+					I'm currently a Front-End Developer at <a href="http://doing.com" target="_blank">DOING</a>.
 				</p>
 
 				<br>
