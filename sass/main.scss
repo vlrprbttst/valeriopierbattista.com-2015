@@ -46,6 +46,8 @@ body {
   
 }
 
+.personal-description-cont {@include clearfix}
+
 .sub-container-sidebar {
   @include span(2 of 3);
   margin:0 auto;
