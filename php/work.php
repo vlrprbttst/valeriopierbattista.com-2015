@@ -46,7 +46,7 @@ include 'css/above-the-fold-work.css.php';
 						<h2>WUTsapp</h2>
 						<p>
 							WUTsapp is a small web app created in collaboration with <a href="https://www.linkedin.com/in/patriziomunzi" target="_blank">Patrizio Munzi</a>, and it's a collection of funny chat
-							conversations. I've created the graphics, the concept and I've recreated the <a href="http://codepen.io/vlrprbttst/pen/dYPwbX" target="_blank">Whatsapp interface</a> with HTML and CSS. 
+							conversations. I've created the graphics, the concept and I've recreated the <a href="http://codepen.io/vlrprbttst/pen/dYPwbX" target="_blank">Whatsapp interface</a> with HTML and CSS.
 							The source is on <a href="https://github.com/vlrprbttst/wutsapp" target="_blank">Github</a> and contributions are very welcome.
 						</p>
 						<p>
@@ -57,29 +57,6 @@ include 'css/above-the-fold-work.css.php';
 						</p>
 					</div>
 				</div>
-				
-				<!--
-				<div class="row">
-				<div class="work-item">
-				<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
-				<h2>Sportitalia</h2>
-				<p>
-				I took part in the refresh of Sportitalia online presence, rebuilding their website and mobile app: I was responsible of creating
-				the responsive layout, developing the css and some of the javascript. Both the website and the app are built upon the Liferay CMS.
-				</p>
-				<p>
-				<span>html, css, js, responsive web design</span>
-				</p>
-				<p>
-				<a href="http://www.sportitalia.com" target="_blank">www.sportitalia.com</a>
-				</p>
-				<p>
-				Download the app on <a href="https://itunes.apple.com/it/app/sportitalia/id918571559?mt=8"> <i class="fa fa-apple" style="padding-right:5px;color:#222"></i>Itunes </a>
-				or
-				<a href="https://play.google.com/store/apps/details?id=it.vetrya.sportitalia&hl=it"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
-				</p>
-				</div>
-				</div> -->
 
 				<div class="row">
 
@@ -98,18 +75,22 @@ include 'css/above-the-fold-work.css.php';
 					</div>
 
 					<div class="work-item">
-						<a href="http://www.hypertvx.com" target="_blank"> <img src="images/dist/work/hypertv-website.png" alt="hypertv" /> </a>
-						<h2>HyperTV Website</h2>
+						<a href="http://www.sportitalia.com" target="_blank"> <img src="images/dist/work/sportitalia.png" alt="sportitalia" /> </a>
+						<h2>Sportitalia</h2>
 						<p>
-							The company website was outdated and I was asked to re-build it from scratch. Working
-							closely with the graphic design team we redefined the company image on the web, giving it a more
-							fresh and up-to-date look.
+							I took part in the refresh of Sportitalia online presence, rebuilding their website and mobile app: I was responsible of creating
+							the responsive layout, developing the css and some of the javascript. Both the website and the app are built upon the Liferay CMS.
 						</p>
 						<p>
-							<span>html, css, js, responsive web design </span>
+							<span>html, css, js, responsive web design</span>
 						</p>
 						<p>
-							<a href="http://www.hypertvx.com" target="_blank">www.hypertvx.com</a>
+							<a href="http://www.sportitalia.com" target="_blank">www.sportitalia.com</a>
+						</p>
+						<p>
+							Download the app on <a href="https://itunes.apple.com/it/app/sportitalia/id918571559?mt=8"> <i class="fa fa-apple" style="padding-right:5px;color:#222"></i>Itunes </a>
+							or
+							<a href="https://play.google.com/store/apps/details?id=it.vetrya.sportitalia&hl=it"> <i class="fa fa-android" style="padding-right:5px;color:#98CB02"></i>Google Play </a>
 						</p>
 					</div>
 				</div>
