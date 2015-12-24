@@ -162,7 +162,7 @@ module.exports = function(grunt) {
 		postcss : {
 			options : {
 				map : true,
-				processors : [require('autoprefixer-core')({
+				processors : [require('autoprefixer')({
 					browsers : 'last 2 version, IE 9'
 				}), // add vendor prefixes. for more: https://github.com/ai/browserslist
 				require('cssnano')() // minify the result
